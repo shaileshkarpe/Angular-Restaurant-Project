@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "name": "shaileshkarpe2018@gmil.com",
+      "email": "shaileshkarpe2018@gmil.com",
+      "mobile": "09921223913",
+      "address": "dombivli",
+      "service": "sj"
+    }
+  ],
+  "signup": [
+    {
+      "name": "Shailesh",
+      "email": "shaileshkarpe2018@gmil.com",
+      "mobile": 9921223913,
+      "password": "111111111111",
+      "id": 1
+    },
+    {
+      "name": "Shailesh",
+      "email": "shaileshkarpe2018@gmail.com",
+      "mobile": 9921223913,
+      "password": "sk@123",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

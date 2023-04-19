@@ -1,0 +1,59 @@
+
+<!------ Include the above in your HEAD tag ---------->
+
+ <div class="container login__container my-5">
+        <div class="row login__row">
+            <div class="col-md-6 d-flex">
+                <img class="login__imagek align-self-center" src="https://www.freevector.com/uploads/vector/preview/28488/Businessman_Happy_Accepting_News.jpg"
+                    width="100%" alt="" />
+            </div>
+            <div class="col-md-5 d-flex">
+                <div class="align-self-center card login__card shadow-sm w-100">
+                    <div class="card-body">
+                        <form  [formGroup]="loginform" (ngSubmit)="login()" >
+                            <h2 class="text-muted text-center">Login Form</h2>
+
+                            <div class="my-5">
+                                <h5 class="text-center">
+                                  User  Login
+                                </h5>
+                            </div>
+
+                            <div class="">
+                                <div class="form-group">
+                                    <label >Username</label>
+                                    <input type="text" formControlName ="email"  placeholder="Enter email" class="form-control form-control-lg" />
+                                </div>
+                                <div class="form-group">
+                                    <label >Password</label>
+                                    <input type="password" formControlName ="password" placeholder="Enter password" class="form-control form-control-lg" />
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input custom-control"
+                                        id="customCheckDisabled1" />
+                                    <label class="custom-control-label" for="customCheckDisabled1">Remember me</label>
+                                </div>
+                                <div class="form-group">
+                                    <a (click)="login()" class="btn btn-primary btn-lg btn-block my-3">
+                                        Login
+                                    </a>
+
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#!">Password forgotten?</a>
+                                        <span> <a  style="color: blue; margin-top: 10px;" routerLink="/signup">Create account</a></span>
+                                    </div>
+                                    <div class="dropdown-divider my-4"></div>
+                                    <div class="text-center w-100">
+                               
+                                        <a href="#"></a>
+
+                                        <small>Built by <a href="#">@skDeveloper</a> </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
